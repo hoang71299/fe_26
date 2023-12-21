@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+.slidewrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.ndslide ul{
+    position: relative;
+}
+.ndslide li{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+.ndslide li.active{
+    opacity: 1;
+}
+.slidewrapper .nutchuyen{
+    position: absolute;
+    bottom: 3%;
+    z-index: 10;
+    left: 50%;
+    color: wheat;
+    font-size: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.nutchuyen b{
+    color:wheat ;
+    font-size: 50px;
+    cursor: pointer;
+}
+.nutchuyen b:hover

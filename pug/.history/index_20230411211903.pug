@@ -1,0 +1,29 @@
+include ./pug/mixins
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title HTML CSS Master
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap' rel='stylesheet')
+    link(rel="stylesheet" href="./style/popular.css")
+  body
+    //- section.popular
+    //-   .container
+    //-     h2.heading Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, reprehenderit!
+    //-     .popular-list
+    //-       +popularItem
+    //-       +popularItem
+    //-       +popularItem
+    //-       +popularItem
+    section.gem 
+      .container
+      h2.heading Lorem ipsum dolor sit amet.
+      .gem-list
+      
+        .gem-item
+          img(src="https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60", alt="")
+

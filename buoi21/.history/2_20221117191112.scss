@@ -1,0 +1,36 @@
+// khai bao bien 
+$mau1:gray;
+//khai bao ham
+@mixin kt($maunen) {
+    width: 50%;
+    height: 50%;
+    background-color: ;
+}
+body{
+    background-color: blue;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.khoi1{
+    background-color:$mau1;
+}
+h1{
+    color: $mau1;
+}.cha{
+    .con1{
+       @include kt();
+        a{
+            color: $mau1;
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+    .con2{
+        @include kt();
+        a{color: gold;}
+        p{font-size: 20px;}
+    }
+}

@@ -1,0 +1,39 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: #F5f5f5;
+}
+.tour{
+  width: 370px;
+  /* height: 420px; */
+  height: auto;
+  
+  background-color: #fff;
+ 
+  /* border: 5px solid black; */
+}
+.tour-content{
+  padding: 20px;
+}
+.tour-title{
+  background-color: red;
+  margin-bottom: 10px;
+  color: #23262f;
+}
+.tour-rating{
+  margin-bottom: 20px;
+}
+.tour-duration,
+.tour-review-count{
+  color: #353949;
+}
+.tour-button{
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 8px 17px;
+}

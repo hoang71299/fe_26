@@ -1,0 +1,30 @@
+// khai bao bien 
+$mau1:gray;
+body{
+    background-color: blue;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.khoi1{
+    background-color:$mau1;
+}
+h1{
+    color: $mau1;
+}.cha{
+    .con1{
+        width: 50%;
+        height: 50%;
+        a{
+            color: $mau1;
+            &:h
+        }
+    }
+    .con2{
+        width: 50%;
+        height: 50%;
+        a{color: gold;}
+        p{font-size: 20px;}
+    }
+}

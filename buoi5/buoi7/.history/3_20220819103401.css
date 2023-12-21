@@ -1,0 +1,14 @@
+.dienthoai{
+    width: 400px;
+    height: 4000px;
+    position: relative;
+    margin-left: 100px;
+}
+.nen{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #44bd32;
+    z-index: 2;
+}

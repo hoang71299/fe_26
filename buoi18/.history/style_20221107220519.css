@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    list-style: none;
+}
+.slidewrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.ndslide ul{
+    position: relative;
+}
+.ndslide li{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+.ndslide li.active{
+    opacity: 1;
+}
+.slidewrapper .nutchuyen{
+    position: absolute;
+    bottom: 3%;
+    z-index: 10;
+    left: 50%;
+    font-size: 50px;
+    transform: translateX(-50%);
+}
+.nutchuyen b{
+    color:wheat ;
+    font-size: 50px;
+    cursor: pointer;
+    cursor: pointer;
+}
+.nutchuyen b:hover{color: darkorange;}
+/* .anslideNext{
+    animation: anSlN 2s forwards;
+    }
+    @keyframes anSlN{
+        from{ transform: scale(1); opacity: 1;}
+        to{ transform: scale(2); opacity: 0;}
+    }
+    .hienslideNext{
+    animation: hienSlN 2s forwards;
+    }
+    @keyframes hienSlN{
+        from{ transform: scale(0.7); opacity: 0;}
+        to{ transform: scale(1); opacity: 1;}
+    }
+    .anslidePrev{
+        animation: anSlP 2s forwards;
+        }
+        @keyframes anSlP{
+            from{ transform: scale(1); opacity: 1;}
+            to{ transform: scale(0.7); opacity: 0;}
+        }
+        .hienslidePrev{
+        animation: hienSlP 3s forwards;
+        }
+        @keyframes hienSlP{
+            from{ transform: scale(2); opacity: 0;}
+            to{ transform: scale(1); opacity: 1;}
+        } */
+        /* Hiệu ứng 2 */
+        /* .anslideNext{
+            animation: anSlN 2s forwards;
+            
+            }
+            @keyframes anSlN{
+                from{ transform: translateX(0); opacity: 1;}
+                to{ transform: translateX(100%); opacity: 0;}
+        
+            }
+        .hienslideNext{
+            animation: hienSlN 2s forwards;
+            }
+            @keyframes hienSlN{
+                from{ transform: translateX(-100%); opacity: 0;}
+                to{ transform: translateX(0%); opacity: 1;}
+            }
+        .anslidePrev{
+            animation: anSlP 2s forwards;
+            }
+            @keyframes anSlP{
+                from{ transform: translateX(0%); opacity: 1;}
+                to{ transform: translateX(-100%); opacity: 0;}
+            }
+            .hienslidePrev{
+            animation: hienSlP 2s forwards;
+            }
+            @keyframes hienSlP{
+                from{ transform: translateX(100%); opacity: 0;}
+                to{ transform: translateX(0); opacity: 1;}
+            } */
+            /* hieu ung 3 */
+            /* anslideNext{
+                animation: anSlN 2s forwards;
+                }
+                @keyframes anSlN{
+                    from{ transform: scale(1); opacity: 1;}
+                    to{ transform: scale(0.8); opacity: 1;}
+                }
+                .hienslideNext{
+                animation: hienSlN 2s forwards;
+                }
+                @keyframes hienSlN{
+                    from{ transform: translateX(100%); opacity: 0;}
+                    to{ transform: translateX(0); opacity: 1;}
+                }
+                
+                
+                .anslidePrev{
+                animation: anSlP 2s forwards;
+                }
+                @keyframes anSlP{
+                    from{ transform: translateX(0); opacity: 1;}
+                    to{ transform: translateX(100%); opacity: 0;}
+                }
+                .hienslidePrev{
+                animation: hienSlP 3s forwards;
+                }
+                @keyframes hienSlP{
+                    from{ transform: scale(0.8); opacity: 1;}
+                    to{ transform: scale(1); opacity: 1;}
+                } */
+                /* hieu ung 4  */
+                /* .anslideNext{
+                    animation: anSlN 2s forwards;
+                    }
+                    @keyframes anSlN{
+                        from{ transform: translateX(0%) scale(1); opacity: 1;}
+                        to{ transform: translateX(100%) scale(0.9); opacity: 0;}
+                    }
+                    .hienslideNext{
+                    animation: hienSlN 2s forwards;
+                    }
+                    @keyframes hienSlN{
+                        from{ transform: rotateY(-65deg) translateX(-100%); opacity: 0; }
+                        to{  transform: rotateY(0) translateX(0%); opacity: 1; }
+                    }
+                    
+                    
+                    .anslidePrev{
+                    animation: anSlP 2s forwards;
+                    }
+                    @keyframes anSlP{
+                        from{ transform: translateX(0) rotateY(0); opacity: 1;}
+                        to{ transform: translateX(-100%) rotateY(-65deg); opacity: 0;}
+                    }
+                    .hienslidePrev{
+                    animation: hienSlP 2s forwards;
+                    }
+                    @keyframes hienSlP{
+                        from{ transform: translateX(100%) scale(0.9); opacity: 0;}
+                        to{ transform:translateX(0) scale(1); opacity: 1;}
+                    } */
+                    /* hieu ung 5  */
+                    /* .anslideNext{
+                        animation: anSlN 2s forwards;
+                        }
+                        @keyframes anSlN{
+                            from{ z-index: 3;height: 100vh;opacity: 1;}
+                            to{ height: 0; z-index: 3; opacity: 0; }
+                        }
+                        .hienslideNext{
+                        animation: hienSlN 2s forwards;
+                        }
+                        @keyframes hienSlN{
+                            from{  opacity: 1; }
+                            to{  opacity: 1; }
+                        }
+                        
+                        
+                        .anslidePrev{
+                        animation: anSlP 2s forwards;
+                        }
+                        @keyframes anSlP{
+                            
+                            from{  opacity: 1; }
+                            to{  opacity: 1; }
+                            
+                        }
+                        .hienslidePrev{
+                        animation: hienSlP 2s forwards;
+                        }
+                        @keyframes hienSlP{
+                            from{ height: 0; z-index: 4;  opacity: 0; }
+                            to{ z-index: 4;height: 100vh; opacity: 1;}
+                        } */
+                        /* hieu ung 6  */
+                        
+
+               
+                
+                
+                

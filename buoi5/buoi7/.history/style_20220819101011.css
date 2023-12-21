@@ -1,0 +1,69 @@
+.khoi{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    animation: zoom 2s forwards infinite ;
+    border-radius: 50%;
+}
+/* dinh nghia hieu ung tu dong zoom*/
+@keyframes zoom {
+    /* from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(1);
+    } */
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.1);
+    }
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.banner .hinh{
+    width: 100%;
+    height: 50%;
+    /* background-image: url("./image/2.avif"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: doihinh 5s infinite;
+}
+@keyframes doihinh {
+    0%{
+        background-image: url("./image/2.avif");
+        transform: scale(1);
+    }
+    33%{
+        background-image: url("./image/2.avif");transform: scale(1.1);
+    }
+    66%{
+        background-image: url("./image/1.jdg.avif");
+        transform: scale(1);
+    }
+    100%{
+        background-image: url("./image/1.jdg.avif");
+        transform: scale(1.1);
+    }
+}
+.text{
+    font-size: 100px;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}

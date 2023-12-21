@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 90%;
+    height: 60px;
+    background-color: #78b43d;
+    padding-left: 10%;
+}
+.phantu{
+
+}
+.phantu a.phantren{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

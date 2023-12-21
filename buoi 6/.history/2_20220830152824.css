@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.product{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.box{
+    width: 22%;
+    height: auto;
+}
+.top{
+    width: 100%;
+    display: inline-block;
+}
+.top .content{
+    width: 100%;
+    height: 150px;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+a.top .content .hinhsp{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}

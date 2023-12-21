@@ -1,0 +1,30 @@
+mixin tourItem(image,price,title,review,reviewCount,duration,tourPrice)
+  .tour 
+    .tour-top 
+      img.tour-image(src=image alt='')
+      span.tour-price= price
+    .tour-content
+      h3.tour-title= title 
+      .tour-rating
+        .tour-review
+          .tour-star
+            img(src='./image/star.png' alt='')
+          .tour-review-count= review 
+            |   (#{reviewCount} reviews)
+        span.tour-duration Duration: #{duration}
+      a.tour-button(href='' rel='noopener noreferrer') Tours Price $#{tourPrice}
+
+
+mixin popularItem
+  .popular
+  .popular-item
+    .popular-image
+      .popular-overlay
+      img.popular-img(src="https://source.unsplash.com/random", alt="")
+      span.popular-label Must see
+    .popular-content 
+      time.popular-time 28 10:00 AM - 1:00 PM
+      h3.popular-title The Grand Palace
+      .popular-review
+        img(src="./image/star.png", alt="")
+        span 4.8 (12 reviews)

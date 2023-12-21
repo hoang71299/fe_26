@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+.tour{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.tour .sanpham{
+    width: 22%;
+    height: auto;
+}
+.tour .sanpham a.top{
+    display: inline-block;
+    text-decoration: none;
+}
+a.top .khoi{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;/* AN BEN NGOSI PHAN TU CHA*/
+}
+a.top .khoi  .hinh{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top .khoi .nen {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.369);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.sanpham:hover .khoi .nen{
+    opacity: 1;
+    transition: 0.3s linear;
+}
+.khoi .noidung{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    opacity: 0;transition: 0.3s linear;
+}
+.sanpham:hover .noidung{
+    opacity: 1;
+    transition: 0.3s linear;
+}
+.diadiem{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.491);
+    position: absolute;
+    bottom: 0;
+    padding: 7px 10px;
+    font-weight: bold;
+}
+.sanpham:hover .diadiem{
+    bottom: -40px;
+    transition: 0.3S ;
+}
+.top .tieude{
+    background-color: gainsboro;
+    color: PINK;
+}

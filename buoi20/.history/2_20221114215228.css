@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;}
+.menu{
+    width: 100vw;
+    height: 50px;
+    background-color: darkblue;
+    position: fixed;
+    z-index: 5;
+}
+.content{
+    padding-top: 50px;
+}

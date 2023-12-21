@@ -1,0 +1,34 @@
+mixin tourItem(image,price,title)
+  .tour 
+    .tour-top 
+      img.tour-image(src=image alt='')
+      span.tour-price= price
+    .tour-content
+      h3.tour-title = title 
+      .tour-rating
+        .tour-review
+          .tour-star
+            img(src='./image/star.png' alt='')
+          .tour-review-count 4.8 (12 reviews)
+        .tour-duration Duration: 9 hours
+      a.tour-button(href='' rel='noopener noreferrer') Tours Price $61
+
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title HTML CSS Master
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap' rel='stylesheet')
+    link(rel="stylesheet" href="./app.css")
+  body 
+    .tour-list-container
+      .tour-list 
+        +tourItem("./image/martyna-bober-yd1_Tupnls4-unsplash.png","from $40","Dhaka To Bangkok")
+        +tourItem("https://source.unsplash.com/random","from $60"."Lorem ipsum dolor sit amet.")
+        
+

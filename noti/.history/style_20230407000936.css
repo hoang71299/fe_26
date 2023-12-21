@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+ul,ol{
+  list-style: none;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+.box::before{
+  content: "noi dung phia truoc";
+}
+.heading{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+
+ 
+}
+
+.heading::before{
+  position: relative;
+  top:-10px;
+  margin-right: -12px;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: orange;
+}
+.heading::after{
+  position: a;
+  display: inline-block;
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: #ccc;
+}

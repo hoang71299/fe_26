@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+product{
+    width: 80%;
+    height: auto;
+    
+    margin: auto;
+    display: flex;
+}
+.box{
+    width: 22%;
+    height: auto;
+}  
+a.top{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+.top .content{
+    width: 100%;
+    height: 150px;
+    
+}
+a.top .content .hinhsp{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

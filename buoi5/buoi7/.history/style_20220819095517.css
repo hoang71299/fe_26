@@ -1,0 +1,25 @@
+.khoi{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    animation: zoom 2s forwards infinite ;
+    border-radius: 50%;
+}
+/* dinh nghia hieu ung tu dong zoom*/
+@keyframes zoom {
+    /* from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(1);
+    } */
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.1);
+    }
+}

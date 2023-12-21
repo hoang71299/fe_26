@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 90%;
+    height: 60px;
+    background-color: #78b43d;
+    padding-left: 10%;
+    display: flex;
+}
+.phantu{
+    position: relative;
+}
+.phantu a.phantren{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+.phantu a.phantren i{
+    display: block;
+    font-size: 35px;
+}
+.phanduoi{
+    width: 200px;
+    background-color: #badc58;
+    position: absolute;
+    top: 60px;
+}
+.phanduoi a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 3px ;
+    font-size: 18px;
+    border-bottom: 1px solid #78b43d;
+}

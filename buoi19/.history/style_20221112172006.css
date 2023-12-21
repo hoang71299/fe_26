@@ -1,0 +1,12 @@
+.khoi{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+.dichuyen{
+    transform: translateX(400px);
+    transition: 0.5s;
+}
+
+*{
+    transition: 0.5s;

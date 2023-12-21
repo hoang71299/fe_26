@@ -1,0 +1,41 @@
+html{
+    font-size: 19px;
+    overflow-x: hidden;
+}
+.box{
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+}
+.cha{
+    font-size: 20px;
+}
+.con{
+    /* font-size: 1.2em;20px */
+    width: 2em;
+    font-size: 1.5rem;
+}
+*{
+    margin: 0;padding: 0;
+}
+.khoi{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid blue;
+}
+.cha2{
+    width: 100vw;
+}
+.con1{
+    width: 49%;
+    height: 300px;
+    background-color: blueviolet;
+    border: 1px solid red;
+    float: left;
+}
+@media screen and (max-width: 767.98px) {
+    .con1{
+        width: 100%;
+    }
+}
+

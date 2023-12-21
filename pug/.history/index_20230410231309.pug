@@ -1,0 +1,25 @@
+include ./pug/mixins
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title HTML CSS Master
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap' rel='stylesheet')
+    link(rel="stylesheet" href="./style/popular.css")
+  body 
+    .container
+      .popular-list
+        .popular-item
+          .popular-image
+            img.popular-img(src="https://images.unsplash.com/photo-1661956602139-ec64991b8b16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60", alt="")
+            span.popular-label Must see
+          .popular-content 
+            span.popular-timeSep 28 10:00 AM - 1:00 PM
+            h3.popular-title The Grand Palace
+            .popular-review
+
+

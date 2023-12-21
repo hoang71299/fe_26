@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@100&display=swap');
+.khoi{
+    width: 80%;
+    margin-left: 10%;
+}
+.sanpham{
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+.sanpham a{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+.sanpham a .hinh{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+.sanpham a .hinh img{
+    width: 100%;
+    transition: 0.3s;
+}
+.sanpham :hover .hinh img{
+    transform: scale(1.1) rotate(-2deg);
+    transition: 0.3s;
+}
+.sanpham a .tieude{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color:  
+    #2c3e50;
+}
+.sanpham .new{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    background-color: 
+    #4ec67f;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    color: white;
+}
+.sanpham .mota{
+    font-size: 17px;
+    padding: 5px;
+}

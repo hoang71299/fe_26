@@ -1,0 +1,1 @@
+let Next=document.querySelector

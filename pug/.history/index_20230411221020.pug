@@ -1,0 +1,35 @@
+include ./pug/mixins
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title HTML CSS Master
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap' rel='stylesheet')
+    link(rel="stylesheet" href="./app.css")
+  body
+    //- section.popular
+    //-   .container
+    //-     h2.heading Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, reprehenderit!
+    //-     .popular-list
+    //-       +popularItem
+    //-       +popularItem
+    //-       +popularItem
+    //-       +popularItem
+    section.gem 
+      .container
+        h2.heading Lorem ipsum dolor sit amet.
+        .gem-list
+          each val in ["https://plus.unsplash.com/premium_photo-1677456384043-d131d8db2a81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1680986151641-50eeb74631c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60", "https://plus.unsplash.com/premium_photo-1680037568203-08fb7b56926b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60", "https://plus.unsplash.com/premium_photo-1677087122675-9f873e853594?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"]
+            .gem-item
+              img(src=val, alt="")
+    section.diamond
+      .container
+        h2.heading Lorem ipsum dolor sit amet.
+        .diamond-list 
+          each val in ["https://plus.unsplash.com/premium_photo-1677456384043-d131d8db2a81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1680986151641-50eeb74631c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60", "https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60", "https://plus.unsplash.com/premium_photo-1680037568203-08fb7b56926b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60", "https://plus.unsplash.com/premium_photo-1677087122675-9f873e853594?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"]
+            .diamond-item 
+              img(src=val, alt="")

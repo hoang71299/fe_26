@@ -1,0 +1,19 @@
+*{
+  margin: 0;padding: 0;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: #F5f5f5;
+}
+.tour{
+  width: 370px;
+  height: 420px;
+  padding: 40px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 5px solid ;
+}
+.tour-content{
+  padding: 20px;
+}

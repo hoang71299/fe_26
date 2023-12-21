@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .khoi{
+            width: 200px;
+            height: 200px;
+            background-color: darkblue;
+            animation: zoom 2s forwards infinite ;
+            border-radius: 50%;
+        }
+        /* dinh nghia hieu ung tu dong zoom*/
+        @keyframes zoom {
+            from{
+                transform: scale(0.1);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="khoi">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.product{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.box{
+    width: 22%;
+    height: auto;
+}
+.top{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+.top .content{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.top .content .hinhsp{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}

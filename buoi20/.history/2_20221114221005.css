@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;}
+.menu{
+    width: 100vw;
+    height: 50px;
+    background-color: darkblue;
+    position: fixed;
+    z-index: 5;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.menu a:hover{
+    font-weight: bold;
+}
+.content{
+    padding-top: 50px;
+}
+.menu.doimenu{
+    background-color: brown;
+    transition: 0.3s;
+}
+.nuttop{
+    font-size: 70px;
+    color: brown;
+    po
+}

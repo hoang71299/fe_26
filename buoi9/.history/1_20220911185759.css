@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+}
+.cha{
+    font-size: 20px;
+}
+.con{
+    /* font-size: 1.2em;20px */
+    /* width: 2em; */
+}

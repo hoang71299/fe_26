@@ -1,0 +1,29 @@
+.dn:hover{
+    font-weight: bold;
+}
+.formdn{
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    position: fixed;
+    top: 30vh;
+    left: 50vw;
+    transform: translatex(-50%);
+    visibility: hidden;
+}
+.formdn input{
+    width: 280px;
+}
+.formdn.active{
+    visibility: visible;
+}
+.popup{
+    width: 300px;
+    height: auto;
+    position: fixed;
+    top: 30vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}

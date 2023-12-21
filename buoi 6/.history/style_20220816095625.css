@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+.tour{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.tour .sanpham{
+    width: 22%;
+    height: auto;
+}
+.tour .sanpham a.top{
+    display: inline-block;
+    text-decoration: none;
+}
+a.top .khoi{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+a.top .khoi  .hinh{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top .khoi .nen {
+    
+}
